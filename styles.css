@@ -45,10 +45,6 @@ footer {
     bottom: 0;
 
 iframe {
-     position: absolute;
-            bottom: 50px; /* 距离底部50px */
-            left: 50%; /* 水平居中起点 */
-            transform: translateX(-50%); /* 水平居中调整 */
             border: none;
             width: 600px;
             height:340px; /* 可以根据需要调整高度 */
