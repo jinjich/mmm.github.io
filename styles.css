@@ -29,6 +29,10 @@ img {
 }
 
 video {
+      position: absolute;
+            bottom: 50px; /* 距离底部50px */
+            left: 50%; /* 水平居中起点 */
+            transform: translateX(-50%); /* 水平
     display: block;
     margin: 0 auto;
 }
