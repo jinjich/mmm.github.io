@@ -44,9 +44,16 @@ footer {
     width: 100%;
     bottom: 0;
 
-iframe {
-            border: none;
-            width: 600px;
-            height:340px; /* 可以根据需要调整高度 */
-        }
+  .video-container {
+        position: relative; /* 或者 absolute, fixed, 根据你的布局需要 */
+        width: 600px; /* 容器宽度 */
+        height: 400px; /* 容器高度 */
+        margin: 0 auto; /* 水平居中 */
+        margin-top: 50px; /* 距离顶部50px */
+    }
+    .video-container iframe {
+        width: 100%; /* iframe宽度占满容器 */
+        height: 100%; /* iframe高度占满容器 */
+        border: none; /* 移除边框 */
+    }
 }
