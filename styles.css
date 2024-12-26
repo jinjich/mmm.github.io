@@ -41,4 +41,10 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+
+iframe {
+            border: none;
+            width: 80%;
+            height: 500px; /* 可以根据需要调整高度 */
+        }
 }
